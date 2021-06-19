@@ -1,0 +1,15 @@
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SnakeGame.exe
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SnakeGame.pdb
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\obj\Debug\SnakeGame.csprojAssemblyReference.cache
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\obj\Debug\SnakeGame.csproj.CoreCompileInputs.cache
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\obj\Debug\SnakeGame.exe
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\obj\Debug\SnakeGame.pdb
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.Audio.dll
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.Graphics.dll
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.System.dll
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.Window.dll
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.Audio.xml
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.Graphics.xml
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.System.xml
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\bin\Debug\SFML.Window.xml
+D:\Katia\RiderProjects\SnakeGame\SnakeGame\obj\Debug\SnakeGame.csproj.CopyComplete
