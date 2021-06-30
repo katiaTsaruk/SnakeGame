@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using SFML.Graphics;
-using SFML.System;
+using SFML.System; 
 using SFML.Window;
+using SnakeGame.Properties;
 
 namespace SnakeGame
 {
@@ -14,18 +16,25 @@ namespace SnakeGame
         private bool isPaused = false;
         private bool pausePressed;
         private List<Food> AllFood = new List<Food>();
-        
+        private ThreadManager threadManager = new ThreadManager();
+
         public void Animation()
         {
-            if (IsIntersecting())
+            Clock clock = new Clock();
+            while (window.IsOpen)
             {
-                
-                float initiallY = snake.allSnake[0].Position.Y;
-                foreach(CircleShape circle in snake.allSnake)
+                if (clock.ElapsedTime.AsSeconds() > 0.1f)
                 {
-                    circle.FillColor=Color.Black;
+                    clock.Restart();
+                    Random random = new Random();
+                    Color color =new Color((byte)random.Next(0,256),(byte)random.Next(0,256),(byte)random.Next(0,256));
+                    foreach (CircleShape circle in snake.allSnake)
+                    {
+                        circle.FillColor = color;
+                    }
                 }
             }
+
         }
         private void CreateFood()
         {
@@ -64,6 +73,7 @@ namespace SnakeGame
         }
         public void Start()
         {
+            threadManager.InitNewThread(this);
             window.Closed += WindowClosed;
             pausePressed = false;
             while (window.IsOpen && IsNotEnd())
@@ -72,7 +82,6 @@ namespace SnakeGame
                 DrawSnake();
                 CreateFood();
                 DrawFood();
-                Animation();
                 DeleteEatedAndIncrese();
                 if (!isPaused)
                 {

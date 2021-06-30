@@ -1,10 +1,13 @@
 ﻿using System.Threading;
 
-namespace SnakeGame
+namespace SnakeGame.Properties
 {
     public class ThreadManager
     {
-        private static Game game = new Game();
-        //Thread animThread = new Thread(new ThreadStart(game.Animation));
+        public void InitNewThread(Game game)
+        {
+            Thread animThread = new Thread(new ThreadStart(game.Animation));
+            animThread.Start();
+        }
     }
 }

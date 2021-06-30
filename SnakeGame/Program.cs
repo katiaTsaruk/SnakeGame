@@ -1,4 +1,5 @@
-﻿using SFML.Graphics;
+﻿using System.Threading;
+using SFML.Graphics;
 
 namespace SnakeGame
 {

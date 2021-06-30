@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b49fb15f-4c00-43ae-b19f-b1b9110805ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SnakeGame/ThreadManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Food.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Snake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/SnakeGame.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/SnakeGame.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeGame/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeGame/ThreadManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/ThreadManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.pdb" afterDir="false" />
     </list>
@@ -34,10 +30,11 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/SnakeGame/Program.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Food.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Snake.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Animation.cs" />
+      <option value="$PROJECT_DIR$/SnakeGame/Program.cs" />
+      <option value="$PROJECT_DIR$/SnakeGame/Properties/ThreadManager.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/ThreadManager.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Game.cs" />
     </changedPaths>
@@ -87,7 +84,7 @@
       <workItem from="1624102968290" duration="2299000" />
       <workItem from="1624106318567" duration="14881000" />
       <workItem from="1625053687882" duration="2114000" />
-      <workItem from="1625055847641" duration="3847000" />
+      <workItem from="1625055847641" duration="7580000" />
     </task>
     <servers />
   </component>
