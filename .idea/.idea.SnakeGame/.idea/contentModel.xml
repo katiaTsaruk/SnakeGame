@@ -17,6 +17,7 @@
         </e>
         <e p="Snake.cs" t="Include" />
         <e p="SnakeGame.csproj" t="IncludeRecursive" />
+        <e p="ThreadManager.cs" t="Include" />
       </e>
       <e p="SnakeGame.sln" t="IncludeFlat" />
     </e>

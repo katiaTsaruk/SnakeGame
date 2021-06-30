@@ -16,15 +16,15 @@ namespace SnakeGame
             this.cellSize = cellSize;
             SetInitialSnake();
         }
-        private CircleShape SetCircle(Vector2f position)
+        public CircleShape SetCircle(Vector2f position)
         {
             CircleShape circle = new CircleShape();
             circle.Radius = cellSize;
             circle.Origin = new Vector2f(circle.Radius / 2,circle.Radius / 2);
             circle.FillColor=Color.Green;
             circle.Position = position;
-            circle.OutlineColor=Color.White;
-            circle.OutlineThickness = 1f;
+            //circle.OutlineColor=Color.White;
+            //circle.OutlineThickness = 1f;
             return circle;
         }
         
@@ -72,7 +72,7 @@ namespace SnakeGame
 
         private void SetInitialSnake()
         {
-            for (int i = 40; i > 0; i--)
+            for (int i = 9; i > 0; i--)
             {
                 allSnake.Add(SetCircle(new Vector2f(i*cellSize/2,cellSize/2)));
             }
