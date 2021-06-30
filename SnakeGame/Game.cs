@@ -34,7 +34,6 @@ namespace SnakeGame
                     }
                 }
             }
-
         }
         private void CreateFood()
         {

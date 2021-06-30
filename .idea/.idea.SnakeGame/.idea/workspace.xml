@@ -7,8 +7,7 @@
     <list default="true" id="b49fb15f-4c00-43ae-b19f-b1b9110805ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/ThreadManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/ThreadManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeGame/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Snake.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/bin/Debug/SnakeGame.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/obj/Debug/SnakeGame.exe" afterDir="false" />
@@ -23,7 +22,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/2/CircleShape.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF4B14B0-2FF9-4A85-8962-6FA5288DDC78/55/8d925bbd/Clock.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SnakeGame/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -31,12 +29,12 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/SnakeGame/Food.cs" />
-      <option value="$PROJECT_DIR$/SnakeGame/Snake.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Animation.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Program.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Properties/ThreadManager.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/ThreadManager.cs" />
       <option value="$PROJECT_DIR$/SnakeGame/Game.cs" />
+      <option value="$PROJECT_DIR$/SnakeGame/Snake.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uAKTPVr8UC1SflsCYd0XdYinCU" />
@@ -84,7 +82,8 @@
       <workItem from="1624102968290" duration="2299000" />
       <workItem from="1624106318567" duration="14881000" />
       <workItem from="1625053687882" duration="2114000" />
-      <workItem from="1625055847641" duration="7580000" />
+      <workItem from="1625055847641" duration="7816000" />
+      <workItem from="1625064655526" duration="1418000" />
     </task>
     <servers />
   </component>

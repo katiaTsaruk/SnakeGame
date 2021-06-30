@@ -23,8 +23,6 @@ namespace SnakeGame
             circle.Origin = new Vector2f(circle.Radius / 2,circle.Radius / 2);
             circle.FillColor=Color.Green;
             circle.Position = position;
-            //circle.OutlineColor=Color.White;
-            //circle.OutlineThickness = 1f;
             return circle;
         }
         
